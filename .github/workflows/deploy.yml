@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write
+  id-token: write # 必须：用于身份验证
 
 jobs:
   build-and-deploy:
